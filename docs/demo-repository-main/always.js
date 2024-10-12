@@ -1,4 +1,4 @@
-fetch('../../demo-repository-main/always.html')
+fetch('/docs/demo-repository-main/always.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('always-container').innerHTML = data;
