@@ -16,8 +16,7 @@ const firebaseConfig = {
     authDomain: "acau-3ebcf.firebaseapp.com",
     projectId: "acau-3ebcf",
     storageBucket: "acau-3ebcf.appspot.com",
-    messagingSenderId: "407904196633",
-    appId: "your-app-id"
+    messagingSenderId: "407904196633"
 };
 
 // Firebaseアプリの初期化
