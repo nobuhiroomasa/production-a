@@ -2,7 +2,7 @@
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 // Firebaseの初期化を行う場合はfirebaseConfig.jsをインポートする
-import '../docs/firebaseConfig';
+import '../production-a/docs/firebaseConfig';
 
 // ユーザー情報を取得する関数をエクスポート
 export function getUserInfo(callback) {
